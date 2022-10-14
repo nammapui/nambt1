@@ -1,15 +1,27 @@
 {
-  "name": "contactbook-backend",
+  "name": "jhgiu",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "script": {
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.1"
-  }
+    "express": "^4.18.1",
+    "server.js": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nammapui/nambt1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nammapui/nambt1/issues"
+  },
+  "homepage": "https://github.com/nammapui/nambt1#readme",
+  "description": ""
 }
